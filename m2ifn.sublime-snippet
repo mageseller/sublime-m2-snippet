@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Get ${1/^(\w)|([A-Z])/(?1:\u\1:)(?2: \u\2\3:)/g}
+ *
+ * @return ${2:string}
+ */
+public function get${1:Data}();
+
+/**
+ * Set ${1/^(\w)|([A-Z])/(?1:\u\1:)(?2: \u\2\3:)/g}
+ *
+ * @param ${2:string}
+ * @return \$this
+ */
+public function set${1:Data}(\$${1/^(\w)|(?:_(\w))/(?1\l$1:)(?2 \u$2:)/g});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>m2ifn</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

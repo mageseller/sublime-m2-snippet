@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<preference for="${1:Namespace\Module\Api\DataInterface}"
+                type="${2:Namespace\Module\Model\Data}" />
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>m2dip</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

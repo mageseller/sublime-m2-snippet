@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<route url="${1:/V1/api/xyz}" method="GET">
+    <service class="${2:Namespace\Module\Api\DataInterface}" method="${3:functionName}"/>
+    <resources>
+        <resource ref="anonymous"/>
+    </resources>
+</route>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>m2route</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
